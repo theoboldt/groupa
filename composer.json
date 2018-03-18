@@ -1,0 +1,33 @@
+{
+    "name": "theoboldt/groupa",
+    "license": "MIT",
+    "type": "library",
+    "description": "Arrange participants in groups",
+    "authors": [
+        {
+            "name": "Erik Theoboldt",
+            "email": "erik@theoboldt.eu"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "": "src/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Tests\\": "tests/"
+      }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "symfony/phpunit-bridge": "^3.0",
+        "symfony/web-server-bundle": "^3.3"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
